@@ -1,2 +1,1 @@
-# pbx-sccp-sd
-pbx-sccp-shared-directory
+# Cisco Shared Directory (Phone Book) for SCCP Module in FreePBX
