@@ -1,0 +1,7 @@
+<CiscoIPPhoneMenu>
+  <Title>Asterisk Directory</Title>
+  <MenuItem>
+      <Name>Search person..</Name>
+      <URL>http://10.8.25.107/dir/menu2.xml</URL>
+  </MenuItem>
+</CiscoIPPhoneMenu>

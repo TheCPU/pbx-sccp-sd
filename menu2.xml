@@ -1,0 +1,10 @@
+<CiscoIPPhoneInput>
+  <Title>Corporative Directory</Title>
+  <Prompt>Search by name</Prompt>
+  <URL>http://10.8.25.107/dir/search.php</URL>
+  <InputItem>
+    <DisplayName>Name</DisplayName>
+    <QueryStringParam>sn</QueryStringParam>
+    <InputFlags>U</InputFlags>
+  </InputItem>
+</CiscoIPPhoneInput>
