@@ -3,9 +3,9 @@ require_once('init.php');
 
 if(isset($_POST['contactname']) && $_POST['contactname'] != ''){
     $name = $_POST['contactname'];
-    $primaryphone = $_POST['primaryphone'] ?? '';
-    $secondaryphone = $_POST['secondaryphone'] ?? '';
-    $mobphone = $_POST['mobphone'] ?? '';
+    $primaryphone = $_POST['primaryphone'];
+    $secondaryphone = $_POST['secondaryphone'];
+    $mobphone = $_POST['mobphone'];
 
      $sql = "INSERT INTO users (name, primaryphone, secondaryphone, mobilephone) VALUES ('$name', '$primaryphone', '$secondaryphone', '$mobphone')";
 
